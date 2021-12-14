@@ -13,6 +13,11 @@ export class RecipeListComponent implements OnInit {
       'This is simply a test',
       'https://www.funfoodfrolic.com/wp-content/uploads/2014/01/Paneer_Pasanda_Recipe4.jpg'
     ),
+    new Recipe(
+      'A Test Recipe',
+      'This is simply a test',
+      'https://www.funfoodfrolic.com/wp-content/uploads/2014/01/Paneer_Pasanda_Recipe4.jpg'
+    ),
   ];
 
   constructor() {}
