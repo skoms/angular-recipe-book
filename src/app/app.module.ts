@@ -11,10 +11,12 @@ import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { FormsModule } from '@angular/forms';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DropdownDirective,
     HeaderComponent,
     RecipeBookComponent,
     RecipeListComponent,
